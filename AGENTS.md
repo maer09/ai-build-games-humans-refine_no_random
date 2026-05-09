@@ -242,6 +242,7 @@ mkdir -p "$PROJECT_DIR/logs" "$PROJECT_DIR/build/web"
 ### 实现约束
 
 - GDScript（Godot 4.2+）
+- **必须使用静态类型**：所有变量、函数参数和返回值必须声明类型；代码必须无警告地通过 Godot 的编译（`strict` 模式）
 - 仅使用 Godot 内置节点（不使用外部插件）
 - 必须支持 `--headless` 运行
 - 在字体正式采用之前，仅使用 `ThemeDB` 回退实现（不预捆绑字体）
