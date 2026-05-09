@@ -133,7 +133,7 @@
 本节侧重设计决策。模板资源是实现代码的权威来源。
 
 - 波形基元和简单包络：`.agents/skills/creating-godot-procedural-audio/assets/audio_synth.gd`
-- 本仓库中测试驱动的实现示例使用 `tmp/games/<slug>/main.gd` 和 `tmp/games/<slug>/tools/tests/run_tests.gd`；根据项目调整路径。
+- 本仓库中测试驱动的实现示例使用 `.<slug>/main.gd` 和 `.<slug>/tools/tests/run_tests.gd`；根据项目调整路径。
 
 ### 5.1 运行时架构（推荐）
 
@@ -245,7 +245,7 @@
 
 ## 7. 输出格式
 
-按以下格式输出到项目的音效设计文档中，例如本仓库中的 `tmp/games/<slug>/SOUND_DESIGN.md`。
+按以下格式输出到项目的音效设计文档中，例如本仓库中的 `.<slug>/SOUND_DESIGN.md`。
 
 ```markdown
 # Sound Design: <GAME_NAME>
