@@ -299,6 +299,7 @@ mkdir -p "$PROJECT_DIR/logs" "$PROJECT_DIR/build/web"
 
 ### Godot Headless 规则
 
+- **GODOT 的可执行文件路径在环境变量 GODOT_PATH 中，可以在 PowerShell 中通过 `$env:GODOT_PATH` 引用。**
 - 始终使用 `--headless --path <PROJECT_DIR>`
 - 使用 `mkdir -p logs && ... 2>&1 | tee logs/<name>.log` 捕获日志
 - 不要直接以文本方式编辑 `.tscn`（使用 `--headless --script`）
