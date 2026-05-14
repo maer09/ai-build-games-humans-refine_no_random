@@ -268,6 +268,7 @@ mkdir -p "$PROJECT_DIR/logs" "$PROJECT_DIR/build/web"
 ├── main.tscn
 ├── main.gd
 ├── README.md                     # 项目根索引，简要说明
+├── scenes/                       # 场景文件目录
 ├── docs/
 │   ├── README.md                 # 游戏设计文档（核心机制、标签记录）
 │   ├── VISUAL_DESIGN.md          # 视觉设计文档（概念、调色板、效果）
