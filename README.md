@@ -45,7 +45,7 @@ pipx install ./scripts/python/godot-init
 pipx install --force ./scripts/python/godot-init
 ```
 
-安装后 `godot-init` 命令全局可用。如遇 PATH 未生效，执行：
+安装后 `godot-init` 命令全局可用。**一次安装，所有项目通用**——后续新建 Godot 项目时无需再次安装，也无需将脚本复制到新项目目录中，直接在新项目目录内运行 `godot-init` 即可。如遇 PATH 未生效，执行：
 
 ```bash
 pipx ensurepath
