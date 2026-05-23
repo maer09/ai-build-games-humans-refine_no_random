@@ -1,6 +1,6 @@
 # ai-build-games-humans-refine (非随机版)
 
-基于 [ai-builds-games-humans-refine](https://github.com/abagby/ai-builds-games-humans-refine) 项目的中文本地化版本，移除了随机标签选择流程，改为由人类直接指定创意标签来设计 Godot 4.2+ 小游戏。
+基于 [ai-builds-games-humans-refine](https://github.com/abagby/ai-builds-games-humans-refine) 项目的中文本地化版本，移除了随机标签选择流程，改为由人类直接指定创意标签来设计 Godot 4.2+ 小游戏。本项目仅在Godot 4.6+ 版本上测试过。
 
 ## 项目来源
 
