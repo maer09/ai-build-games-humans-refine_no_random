@@ -2,6 +2,8 @@
 
 基于 [ai-builds-games-humans-refine](https://github.com/abagby/ai-builds-games-humans-refine) 项目的中文本地化版本，移除了随机标签选择流程，改为由人类直接指定创意标签来设计 Godot 4.2+ 小游戏。本项目仅在Godot 4.6+ 版本上测试过。
 
+> **使用方式**：本项目不是独立的 Godot 项目。需要先在 Godot 编辑器中创建项目，然后将本项目的文件复制到该 Godot 项目目录下使用。
+
 ## 项目来源
 
 以下目录的内容来源于 [ai-builds-games-humans-refine](https://github.com/abagby/ai-builds-games-humans-refine)，并进行了中文翻译：
@@ -35,6 +37,12 @@
 
 ```bash
 pipx install ./scripts/python/godot-init
+```
+
+如果提示已安装，可以加 `--force` 参数强制重新安装：
+
+```bash
+pipx install --force ./scripts/python/godot-init
 ```
 
 安装后 `godot-init` 命令全局可用。如遇 PATH 未生效，执行：
