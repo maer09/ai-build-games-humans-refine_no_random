@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "godot-init"
+version = "1.0.0"
+description = "Godot project init: GDScript warnings + Gopeak MCP + plugin auto-enable"
+requires-python = ">=3.10"
+
+[project.scripts]
+godot-init = "setup_godot_project:main"
+
+[tool.setuptools]
+py-modules = ["setup_godot_project"]
